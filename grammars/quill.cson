@@ -1,0 +1,27 @@
+{
+    'scopeName':'source.quill',
+    'name':'Quill',
+    'fileTypes':['qyl', 'quill'],
+    'patterns':[
+        {
+            'match':'".*?"',
+            'name':'string.quill',
+        },
+        {
+            'match':'(true|false)',
+            'name':'bool.quill',
+        },
+        {
+            'match':'-?[0-9]+(\\.[0-9]+)?',
+            'name':'number.quill',
+        },
+        {
+            'match':':[^ \\t\\n(){}".,:\\]\\[]+(\\.[^ \\t\\n(){}".:,+\\]\\[]+)*',
+            'name':'symbol.quill',
+        },
+        {
+            'match':'[^ \\t\\n(){}".,:\\]\\[]+(\\.[^ \\t\\n(){}".,:+\\]\\[]+)*',
+            'name':'name.quill',
+        }
+    ]
+}
