@@ -7,6 +7,10 @@
         'name':'constant.string.quill',
     },
     {
+        'match':'#.*?',
+        'name':'comment.quill',
+    }
+    {
         'match':'(true|false)',
         'name':'constant.boolean.quill',
     },
