@@ -23,6 +23,10 @@
         'name':'constant.name.quill',
     },
     {
+        'match':'[^ \\t\\n(){}".,:\\]\\[]+(\\.[^ \\t\\n(){}".,:+\\]\\[]+)*\\(',
+        'name':'meta.function-call.quill',
+    }
+    {
         'match':':?[^ \\t\\n(){}".,:\\]\\[]+(\\.[^ \\t\\n(){}".,:+\\]\\[]+)*',
         'name':'entity.name.quill',
     }
