@@ -1,2 +1,3 @@
 import("stdlib/stdio")
 func: function
+print(5)

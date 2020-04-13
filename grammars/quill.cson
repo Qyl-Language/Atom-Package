@@ -24,7 +24,7 @@
     },
     {
         'match':'[^ \\t\\n(){}".,:\\]\\[]+(\\.[^ \\t\\n(){}".,:+\\]\\[]+)*\\(',
-        'name':'meta.function-call.quill',
+        'name':'meta.function-call.method-call.quill',
     }
     {
         'match':':?[^ \\t\\n(){}".,:\\]\\[]+(\\.[^ \\t\\n(){}".,:+\\]\\[]+)*',
