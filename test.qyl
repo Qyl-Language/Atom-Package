@@ -1,0 +1,2 @@
+import("stdlib/stdio")
+stdio.cout("hello")
