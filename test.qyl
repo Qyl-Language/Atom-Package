@@ -3,4 +3,4 @@ stdio.cout("hello")
 func: f
 f = func(number: a) {
 
-}
+} #abc

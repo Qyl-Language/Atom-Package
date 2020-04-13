@@ -7,7 +7,7 @@
         'name':'constant.string.quill',
     },
     {
-        'match':'#.*?',
+        'match':'#.*',
         'name':'comment.quill',
     }
     {
