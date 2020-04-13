@@ -1,2 +1,5 @@
 import("stdlib/stdio")
 stdio.cout("hello")
+func(number: a) {
+
+}

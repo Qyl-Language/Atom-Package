@@ -16,7 +16,11 @@
     },
     {
         'match':'(if|while|return|import|func|class)\\(',
-        'name':'keyword.control.quill',
+        'captures':{
+            '1':{
+                'name':'keyword.control.quill',
+            }
+        }
     },
     {
         'match':'(map|string|list|number|class|func|_pytype|void|bool)',
