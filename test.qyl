@@ -1,6 +1,2 @@
 import("stdlib/stdio")
-stdio.cout("hello")
-func: f
-f = func(number: a) {
-
-} #abc
+func: function
