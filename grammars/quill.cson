@@ -23,8 +23,12 @@
         'name':'constant.name.quill',
     },
     {
-        'match':'[^ \\t\\n(){}".,:\\]\\[]+(\\.[^ \\t\\n(){}".,:+\\]\\[]+)*\\(',
-        'name':'meta.function-call.method-call.quill',
+        'match':'([^ \\t\\n(){}".,:\\]\\[]+(\\.[^ \\t\\n(){}".,:+\\]\\[]+)*)\\(',
+        'captures': {
+            '1': {
+                'name':'entity.name.function.quill',
+            }
+        }
     }
     {
         'match':':?[^ \\t\\n(){}".,:\\]\\[]+(\\.[^ \\t\\n(){}".,:+\\]\\[]+)*',
