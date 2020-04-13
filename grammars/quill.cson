@@ -15,8 +15,12 @@
         'name':'constant.numeric.quill',
     },
     {
-        'match':'(if|while|return|import|func|class)',
+        'match':'(if|while|return|import|func|class)\\(',
         'name':'keyword.control.quill',
+    },
+    {
+        'match':'(map|string|list|number|class|func|_pytype|void|bool)',
+        'name':'constant.name.quill',
     },
     {
         'match':':?[^ \\t\\n(){}".,:\\]\\[]+(\\.[^ \\t\\n(){}".,:+\\]\\[]+)*',
